@@ -1,0 +1,25 @@
+INFO    2021-01-15 22:16:11,515 [main] com.caseys.base.BaseTest  - Test Execution has started!!!
+INFO    2021-01-15 22:16:11,518 [main] com.caseys.base.BaseTest  - Config file has been loaded!
+INFO    2021-01-15 22:16:14,959 [main] com.caseys.base.BaseTest  - Chrome has been launched!!
+INFO    2021-01-15 22:16:23,552 [main] com.caseys.base.BaseTest  - Navigated to: https://www.caseys.com/
+INFO    2021-01-15 22:16:25,816 [main] com.caseys.base.BaseTest  - Window has been maximized
+INFO    2021-01-15 22:16:26,010 [main] com.caseys.base.BaseTest  - Mouse Hover to Menu
+INFO    2021-01-15 22:16:30,065 [main] com.caseys.base.BaseTest  - Clicking on Create Your Own Pizza after clicking on Pizza!!
+INFO    2021-01-15 22:16:30,066 [main] com.caseys.base.BaseTest  - Selecting the quantity
+INFO    2021-01-15 22:16:33,341 [main] com.caseys.base.BaseTest  - Selected the quantity
+INFO    2021-01-15 22:16:33,491 [main] com.caseys.base.BaseTest  - Selected the quality
+INFO    2021-01-15 22:16:33,707 [main] com.caseys.base.BaseTest  - Selected the size
+INFO    2021-01-15 22:16:34,110 [main] com.caseys.base.BaseTest  - Selecting Sauce Marinara and light
+INFO    2021-01-15 22:16:34,357 [main] com.caseys.base.BaseTest  - Selecting Cheese and Regular
+INFO    2021-01-15 22:16:35,623 [main] com.caseys.base.BaseTest  - Selecting meat
+INFO    2021-01-15 22:16:37,179 [main] com.caseys.base.BaseTest  - Selecting veggies
+INFO    2021-01-15 22:16:37,501 [main] com.caseys.base.BaseTest  - Special Instruction provided
+INFO    2021-01-15 22:16:37,592 [main] com.caseys.base.BaseTest  - Printed Allergen Info
+INFO    2021-01-15 22:16:37,714 [main] com.caseys.base.BaseTest  - Clicking on Start Order
+INFO    2021-01-15 22:16:38,057 [main] com.caseys.base.BaseTest  - pickup selected
+INFO    2021-01-15 22:16:43,269 [main] com.caseys.base.BaseTest  - Address entered
+INFO    2021-01-15 22:16:44,605 [main] com.caseys.base.BaseTest  - Clicking on Store Details and printed details
+INFO    2021-01-15 22:16:44,912 [main] com.caseys.base.BaseTest  - Curbside Pickup Selected
+INFO    2021-01-15 22:16:48,194 [main] com.caseys.base.BaseTest  - The way of Pickup Selected
+INFO    2021-01-15 22:16:48,478 [main] com.caseys.base.BaseTest  - Time of Pickup selected
+INFO    2021-01-15 22:16:51,317 [main] com.caseys.base.BaseTest  - Clicked On Submit Order
