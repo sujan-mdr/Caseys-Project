@@ -15,17 +15,6 @@
 
   <test  name="Caseys Test">
     <classes>
-      <class name="com.caseys.testCases.TC_001_SelectingPizzaTest"/>
-       <class name="com.caseys.testCases.TC_002_SelectCreateOwnPizzaTest"/>
-        <class name="com.caseys.testCases.TC_003_SelectingQtyOfPizzaTest"/>
-         <class name="com.caseys.testCases.TC_004_SelectingQualOfPizzaTest"/>
-          <class name="com.caseys.testCases.TC_005_SelectingSizeOfPizzaTest"/>
-           <class name="com.caseys.testCases.TC_006_SelectionOfSauceTest"/>
-            <class name="com.caseys.testCases.TC_007_SelectionOfCheeseTest"/>
-             <class name="com.caseys.testCases.TC_008_SelectionOfMeatsTest"/>
-              <class name="com.caseys.testCases.TC_009_SelectionOfVeggiesTest"/>
-               <class name="com.caseys.testCases.TC_010_SelectionOfEspInsTest"/>
-                <class name="com.caseys.testCases.TC_011_ChoosingOrderAsPickupTest"/>
                  <class name="com.caseys.testCases.TC_012_OrderCustomizePizzaTest"/>
       
     </classes>
