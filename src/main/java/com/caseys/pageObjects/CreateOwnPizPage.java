@@ -4,16 +4,18 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.caseys.basePage.BasePage;
 
 public class CreateOwnPizPage extends BasePage {
-
+ 
 	public CreateOwnPizPage(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
@@ -120,9 +122,9 @@ public class CreateOwnPizPage extends BasePage {
 	public WebElement pickUpAddress;
 
 	public void selectQuantityOfPizza() throws InterruptedException {
-
+WebDriverWait wait = new WebDriverWait(driver,10);
 		Select select = new Select(quantity);
-		Thread.sleep(3000);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'240 Cal/Slice (12 Slices)')]")));
 		select.selectByVisibleText("2");
 	}
 
@@ -222,10 +224,11 @@ public class CreateOwnPizPage extends BasePage {
 	}
 
 	public PickUpPage pickUpAdd(String address) throws AWTException, InterruptedException {
+	    WebDriverWait wait = new WebDriverWait(driver,3);
 		pickUpAddress.sendKeys(address);
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_DOWN);
-		Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(pickUpAddress));
 		robot.keyPress(KeyEvent.VK_ENTER);
 
 		return new PickUpPage(driver);

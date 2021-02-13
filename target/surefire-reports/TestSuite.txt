@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 253.926 s <<< FAILURE! - in TestSuite
+orderCustomizePizzaTest(com.caseys.testCases.TC_012_OrderCustomizePizzaTest)  Time elapsed: 19.918 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/section/div[2]/div[2]/div/div/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]/div/div/div[2]/button"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUJAN-M', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\SUJAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af4e5c65c72c406a653761e1dc5deae3
+*** Element info: {Using=xpath, value=/html/body/div[2]/section/div[2]/div[2]/div/div/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]/div/div/div[2]/button}
+	at com.caseys.testCases.TC_012_OrderCustomizePizzaTest.orderCustomizePizzaTest(TC_012_OrderCustomizePizzaTest.java:59)
+

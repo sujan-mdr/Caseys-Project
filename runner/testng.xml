@@ -27,6 +27,7 @@
                <class name="com.caseys.testCases.TC_010_SelectionOfEspInsTest"/>
                 <class name="com.caseys.testCases.TC_011_ChoosingOrderAsPickupTest"/>
                  <class name="com.caseys.testCases.TC_012_OrderCustomizePizzaTest"/>
+                 
       
     </classes>
   </test> <!-- Test -->

@@ -3,7 +3,9 @@ package com.caseys.pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.caseys.basePage.BasePage;
 
@@ -44,11 +46,13 @@ public class PickUpPage extends BasePage {
 	}
 
 	public void pickUpWay() throws InterruptedException {
-		
+		WebDriverWait wait = new WebDriverWait(driver, 5);
 		Select select = new Select(pickUpStatus);
-		
+		//wait.until(ExpectedConditions.elementToBeClickable(pickUpStatus));
 		select.selectByValue("2");
-		Thread.sleep(3000);
+		wait.until(ExpectedConditions.elementToBeClickable(pickUpStatus));
+	
+		//Thread.sleep(3000);
 	}
 	
 	public void timeForPickUp() {
